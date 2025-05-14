@@ -1,0 +1,40 @@
+1. Server Side: The server side of an application is the backend logic that usually runs on computers in data centers and interacts with databases.
+
+2. Client Side: The client side of an application is what runs on the device of the user of the application.
+
+3. IDE(Intregrated Development Environment): An IDE is a special type of application that is used to write, run, and debug code. IDE's are designed to improve your overall productivity by reducing your coding efforts. The characteristcs most IDE have is:
+
+    	IDE's have syntax highlighting: They colour certain elements to help you understand your code better and detect errors.
+
+        IDE's have code completitions: This means that you don't have to write the complete code. The IDE will help you complete it.
+
+4. JS: 
+    JavaScript is an exciting language that can be used in both server side and client side used for making websites or applications dynamic.
+
+    JavaScript was invented in 1995.
+
+    JavaScript is an interpreted language which means that computers understands it while running it. The computer can just interpret JS on the fly. The engine that understands JS is called an interpreter.
+
+5. Compiling Language: 
+    A compiling language is a language that requires additional pre-processing in order for the computer to understand it.
+
+    The engine that understands a compiling language is called a compiler.
+
+6. Console: The console is used by developers to log what is going on and do any debugging. The console gives some insights as to what is happening in your code if you have some sensible messages.
+
+7. Debugging: Debugging is finiding the problem when an application is not displaying the desired results it is supposed to be displaying.
+
+8. Code Comments: Code comments are used to tell the interpreter to ignore some lines of code in the file. It may for one of the following reasons:
+    You don't want to execute a piece of code while running the script. So it gets ignored.
+
+    Metadata, Adding some context to the code such as for example: Author Name, A brief description of the file.
+
+    Adding comments to explain part of the code.
+
+    There are two types of comments single ling (//) and double line comments (/**/).
+
+9. Alert Function: The alert() function is used to notify the user about the result of their action. It creates a popup and displays or provides the desired message. 
+    alert("Hello World!");
+
+10. Prompt Function: The prompt() function works in a way that is similar to the alert() function. However instead of displaying information to the user it is actually used to collect information from the user. 
+    prompt ("What is your name?");
