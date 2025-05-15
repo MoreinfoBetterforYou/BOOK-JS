@@ -15,6 +15,8 @@
 
     JavaScript is an interpreted language which means that computers understands it while running it. The computer can just interpret JS on the fly. The engine that understands JS is called an interpreter.
 
+    JavaScript is a loosely typed language. This means that JavaScript determines the type based on the value. The type doesn't need to be explicitly mentioned.
+
 5. Compiling Language: 
     A compiling language is a language that requires additional pre-processing in order for the computer to understand it.
 
