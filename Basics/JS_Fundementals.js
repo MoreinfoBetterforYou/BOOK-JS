@@ -52,7 +52,7 @@ console.log(`Representing Octal Numbers using the Number data type:`);
 console.log(octalNumber);
 console.log();
 
-let hexadecimalNumber = 0xA;
+let hexadecimalNumber = 0xA; // 0x before hexadecimal numbers.
 console.log(`Representing Hexadecimal Numbers using the Number data type:`);
 console.log(hexadecimalNumber);
 console.log();
