@@ -8,9 +8,9 @@ let nextTarget = nextGoal(result, 272);
 console.log(`The new target for the lines of code to write is: ${nextTarget.toFixed(0)} lines.`);
 
 let date = new Date(2025, 4, 7);
-let customDate = new Date(2025, 4, 30);
+let customDate = new Date(2025, 4, 31);
 let differenceInDays = (customDate - date) / 86400000;
-let numberOfCommits = 47;
+let numberOfCommits = 53;
 let average = numberOfCommits / differenceInDays;
 console.table([`${numberOfCommits} Commits`, `${differenceInDays} Days`, `${average.toFixed(2)} Commits / Day`])
 console.log();
