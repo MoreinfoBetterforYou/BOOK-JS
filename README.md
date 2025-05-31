@@ -24,7 +24,7 @@ This course will mainly follow the book ["JavaScript from Beginner to Profession
 - [:1234: Conditional Statements](06_If-and-Else-and-Else-If-statements.js)
 ---
 ## Your First Program :computer:
-```
+```js
     console.log("Hello World!");
 ```
 This program will log "Hello World!" to the console. This is the first program you will learn in this course.
