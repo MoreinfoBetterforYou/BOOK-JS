@@ -28,4 +28,3 @@ This course will mainly follow the book ["JavaScript from Beginner to Profession
     console.log("Hello World!");
 ```
 This program will log "Hello World!" to the console. This is the first program you will learn in this course. :heart:
-<a href="javascript[1].pdf" download>File</a>
