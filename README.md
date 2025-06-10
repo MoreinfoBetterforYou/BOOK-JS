@@ -22,6 +22,8 @@ This course will mainly follow the book ["JavaScript from Beginner to Profession
 - [:books: Arrays](04_Arrays-In_JS.js)
 - [:bricks: Objects](05_Objects.js)
 - [:1234: Conditional Statements](06_If-and-Else-and-Else-If-statements.js)
+- [:bricks: Loops](07_Loops.js)
+- [:computer: Functions](08_Functions.js)
 ---
 ## Your First Program :computer:
 ```js
