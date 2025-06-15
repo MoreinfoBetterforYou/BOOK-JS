@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.content{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Playfair Display';
+    margin: 15px;
+    font-size: 45px;
+}
+.footer{
+    height: 10%;
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    margin: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#black{
+    background-color: black;
+}
+#yellow{
+    background-color: yellow;
+}
+#lightblue{
+    background-color: #00ADB5;
+}
+#darkblue{
+    background-color: #003366;
+}
+.heading{
+    text-align: center;
+}
