@@ -109,7 +109,7 @@
     console.log(multiply4Numbers(...arrayOfNumbers1, ...arrayOfNumbers2));
     console.log();
 
-    // Rest Operator: THe rest operator in Java Script is also written as three dots (...). It is function in function parameters to collected all remaining arguments in a function into an array. 
+    // Rest Operator: THe rest operator in Java Script is also written as three dots (...). It is used in function parameters to collected all remaining arguments in a function into an array. 
 
     // Lets look at an easy example: 
     console.log(`Rest Operator - Example 1`);
