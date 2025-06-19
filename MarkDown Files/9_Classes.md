@@ -277,4 +277,128 @@ console.log(myBank.balance); // 1400000
 
 ---
 
-✅ This guide gives a clear foundation of OOP in JavaScript. Let me know if you'd like to explore **Inheritance** or **Polymorphism** next! 💪
+## 🧬 Inheritance
+
+**Inheritance** is a key concept in Object-Oriented Programming (OOP). It is a mechanism that allows one class (called the **child** or **subclass**) to inherit the methods and properties of another class (called the **parent** or **superclass**). This helps improve code reusability and allows us to establish a connection and relationship between classes. 🧱
+
+### 🧪 Example:
+
+```js
+console.log(`Inheritance - Example 1`);
+class Vehicle {
+    #color;
+    #brand;
+    #engineSize;
+    #maxSpeed;
+
+    constructor(color, brand, engineSize, maxSpeed) {
+        this.#color = color;
+        this.#brand = brand;
+        this.#engineSize = engineSize;
+        this.#maxSpeed = maxSpeed;
+    }
+
+    get color() {
+        return this.#color;
+    }
+    get brand() {
+        return this.#brand;
+    }
+    get engineSize() {
+        return this.#engineSize;
+    }
+    get maxSpeed() {
+        return this.#maxSpeed;
+    }
+
+    move() {
+        console.log(`Moving at ${this.#maxSpeed}`);
+    }
+    accelerate(amount) {
+        if (amount >= 0) {
+            this.#maxSpeed += amount;
+        } else {
+            console.log(`Acceleration amount can't be negative.`);
+        }
+    }
+}
+
+class MotorCycle extends Vehicle {
+    #fuelCapacity;
+    #fuelType;
+
+    constructor(color, brand, engineSize, maxSpeed, fuelCapacity, fuelType) {
+        super(color, brand, engineSize, maxSpeed);
+        this.#fuelCapacity = fuelCapacity;
+        this.#fuelType = fuelType;
+    }
+
+    doWheelie() {
+        console.log(`The ${this.brand} is doing a wheelie.`);
+    }
+}
+
+let myMotorCycle = new MotorCycle('black', 'Ducati', 1000, 350, 16, 'High Octance');
+console.log(myMotorCycle.brand);
+console.log();
+```
+
+---
+
+## 🧩 `super` Keyword
+
+Just like the `this` keyword is used for the **current object** (usually the child), the `super` keyword is used to **refer to the parent class**. 💡
+
+It is most commonly used to:
+
+* Call the constructor of the parent class
+* Access methods from the parent class
+
+Example use:
+
+```js
+super(color, brand, engineSize, maxSpeed);
+```
+
+---
+
+## 🧠 Prototype
+
+A **prototype** in JavaScript is a mechanism that allows objects to **share and inherit properties and methods**. Every class has a `.prototype` property that you can access to add or override behaviors. 🛠️
+
+### 🧪 Example:
+
+```js
+console.log(`Prototype - Example 1`);
+class Men {
+    #firstName;
+    #lastName;
+
+    constructor(firstName, lastName) {
+        this.#firstName = firstName;
+        this.#lastName = lastName;
+    }
+
+    get firstName() {
+        return this.#firstName;
+    }
+
+    greet() {
+        console.log(`Hi there!`);
+    }
+}
+
+// You can add property or method externally to the class using the prototype property:
+Men.prototype.introduce = function () {
+    console.log(`Hi there, I am ${this.firstName}`);
+};
+
+Men.prototype.favouriteColor = 'black';
+
+const anotherMan = new Men('Imran', 'Khan');
+anotherMan.introduce();
+console.log(anotherMan.favouriteColor);
+console.log();
+```
+
+---
