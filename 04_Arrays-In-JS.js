@@ -32,7 +32,7 @@
     const arrContainingDifferentDataTypes = ["string", 15, true];
     console.table([typeof arrContainingDifferentDataTypes[0], typeof arrContainingDifferentDataTypes[1], typeof arrContainingDifferentDataTypes[2]]);
 
-// Another fun fact is that wjhen you declare an array using the const keyword you can still change the values of the array but you can't change the array itself.
+// Another fun fact is that when you declare an array using the const keyword you can still change the values of the array but you can't change the array itself.
     const arrUsingConstKeyword = ["hi there"];
     arrUsingConstKeyword[0] = ["new value"];
     console.log(arrUsingConstKeyword[0]);
@@ -79,7 +79,7 @@
         const groceryList = ["wheat", "milk", "eggs", "rice", "oil", "nuggets"];
             // Removing elements:
                 groceryList.splice(0,1);
-                console.log(`Replacing elements using the .splice() method in JS: `);
+                console.log(`Removing elements using the .splice() method in JS: `);
                 console.log(groceryList);
                 console.log();
             // Adding Elements: 
