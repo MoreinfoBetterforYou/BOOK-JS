@@ -305,6 +305,9 @@ console.log();
         get firstName() {
             return this.#firstName;
         }
+        get lastName() {
+            return this.#lastName;
+        }
         greet() {
             console.log(`Hi there!`);
         }
