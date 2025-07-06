@@ -32,14 +32,14 @@ console.log();
 console.log(`While Loop - Example 3`);
 let a = 0;
 let b = 1;
-let temperature;
+let temp;
 let array = [];
 
 while (array.length <= 15){
     array.push(a);
-    temperature = a + b;
+    temp = a + b;
     a = b;
-    b = temperature;
+    b = temp;
 }
 console.log(array);
 console.log();
@@ -242,7 +242,7 @@ for (const fruit of basket){
 }
 console.log();
 
-// Continue: The continue statement is used to skip the current iteration of a loop and move on to the next iteration. Think of it like you are listening to a song and you want to slip the next song because you don't like it. You just skip it and move on to the next song, you don't just stop listening.
+// Continue: The continue statement is used to skip the current iteration of a loop and move on to the next iteration. Think of it like you are listening to a song and you want to skip the next song because you don't like it. You just skip it and move on to the next song, you don't just stop listening.
 
 // Lets look at a real world example:
 console.log(`Continue - Example 1`);
