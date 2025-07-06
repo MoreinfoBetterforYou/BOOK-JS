@@ -21,7 +21,7 @@
         console.log();
     
     // 2) Bracket notation using the string literal: In the bracket notation you write the name of the object first and then a square bracket and then the name of the property or method you want to access in string literals.
-        console.log(dog[`bread`]); // Output: Tibitan Mashtif
+        console.log(dog[`breed`]); // Output: Tibitan Mashtif
         console.log();
 
     // 3) Bracket notation using the variable: In the bracket notation you write the name of the object first and then a square bracket and then the name of the property or method you want to access in variable.
