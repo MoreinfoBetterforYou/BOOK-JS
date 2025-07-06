@@ -9,7 +9,7 @@ console.log();
 
 
 
-// Global Methods: Global methods in javascript are functions that you can use anywhere inside your code without needing you to create an object. You can use them directly in your code. Here are some examples of global methods:
+// Global Methods: Global methods in javascript are methods that you can use anywhere inside your code without needing you to create an object. You can use them directly in your code. Here are some examples of global methods:
     console.log(`Global Methods - Example 1`);
 
     // isNan(value): This method checks if the value is NaN (Not a Number). It retuns its result in the form of true or false. 
@@ -81,6 +81,7 @@ console.log();
                 let floatingPointNumber = 15.5;
                 let number2 = parseInt(floatingPointNumber);
                 console.log(number2);
+                console.log();
 
                 console.log(`parseInt() - Example 3`);
                 let binaryNumber = 0b101;
@@ -137,7 +138,12 @@ console.log();
 
 // Array Methods: We have already looked at array methods but here we will discuss some more methods:
 
-    // .forEach(): The forEach method allows us to perform a function on every element in an array. Think of it like for loops. Lets look at example: 
+    // .forEach(): The forEach method allows us to perform a function on every element in an array. Think of it like for loops. The .forEach() Method has three parameters:
+        // 1) element: The current element being processed in the array.
+        // 2) index: The index of the current element being processed in the array.
+        // 3) array: The array on which the .forEach() method is called.
+        
+    //  Lets look at example: 
         console.log(`.forEach() Method - Example 1`);
         let Arrays = ['Hi', 'Hello', 'World', 'Java Script'];
         function print(element, index){
